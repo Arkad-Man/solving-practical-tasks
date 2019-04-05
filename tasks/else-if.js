@@ -17,6 +17,35 @@
 //     console.log('I do not know you!');
 // };
 
+
+// -----------------------------------------------------------------
+// Вариант через switch
+
+// let login = prompt('Who you are?', '');
+
+// switch(login) {
+//     case null:
+//         console.log('login canceled!');
+//         break;
+//     default:
+//         console.log('I do not know you!');
+//         break;
+//     case 'boss':
+//         let pass = prompt('Enter your password, Boss!', '');
+//         switch(pass){
+//             case null:
+//                 console.log('login canceled!');
+//                 break;
+//             case 'lord':
+//                 console.log('Welcome, Boss!');
+//                 break;
+//             default:
+//                 console.log('Wrong password!');
+//                 break;
+//         }
+// }
+
+
 // --------------------------------------------------------------
 // Этот вариант мне просто вынес МОЗГ!!! На него я потратил больше всего времени (3ч.+).
 // Начал его делать, не пошло. Зато появилась идея как это сделать с функциями.
