@@ -19,10 +19,10 @@
 //     }
 // };
 // calculator.read();
-// console.log(calculator.sum());
-// console.log(calculator.sub());
-// console.log(calculator.mul());
-// console.log(calculator.div());
+// console.log('Результат сложения: ' + calculator.sum());
+// console.log('Результат вычитания: ' + calculator.sub());
+// console.log('Результат умножения: ' + calculator.mul());
+// console.log('Результат деления: ' + calculator.div());
 
 // ----------------------------------------------------------
 
@@ -37,8 +37,8 @@
 //     div() { return this.num1 / this.num2; }
 // };
 // calculator.read();
-// console.log(calculator.sum());
-// console.log(calculator.sub());
-// console.log(calculator.mul());
-// console.log(calculator.div());
+// console.log('Результат сложения: ' + calculator.sum());
+// console.log('Результат вычитания: ' + calculator.sub());
+// console.log('Результат умножения: ' + calculator.mul());
+// console.log('Результат деления: ' + calculator.div());
 
