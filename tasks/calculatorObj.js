@@ -42,3 +42,24 @@
 // console.log('Результат умножения: ' + calculator.mul());
 // console.log('Результат деления: ' + calculator.div());
 
+// ----------------------------------------------------------------------------
+// Калькулятор, Свой вариант.
+
+// const calculator = {
+//     start() {
+//         let incomingValue = prompt('Please enter: num1 \ space \ operator \ space \ num2', 0).split(' ');
+//         let num1 = +incomingValue[0];
+//         let operator = incomingValue[1];
+//         let num2 = +incomingValue[2];
+//         (isNaN(num1) || !this.methods[operator] || isNaN(num2))
+//             ? console.log('You entered not valid values!')
+//             : this.methods[operator](num1, num2);
+//     },
+//     methods: {
+//         '+': (a, b) => console.log('Результат сложения: ', a + b),
+//         '-': (a, b) => console.log('Результат вычитания: ', a - b),
+//         '*': (a, b) => console.log('Результат умножения: ', a * b),
+//         '/': (a, b) => console.log('Результат деления: ', a / b)
+//     }
+// }
+// calculator.start();
