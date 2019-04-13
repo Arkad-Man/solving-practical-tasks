@@ -63,3 +63,34 @@
 //     }
 // }
 // calculator.start();
+
+// -----------------------------------------------------------------------------
+// Калькулятор, Свой вариант - 2.
+
+// const calculator = {
+//     start() {
+//         let incomingValue = prompt('Please enter: num1 \ space \ operator \ space \ num2', 0).split(' ');
+//         let num1 = +incomingValue[0];
+//         let operator = incomingValue[1];
+//         let num2 = +incomingValue[2];
+//         if(isNaN(num1) || operator !== ('+' || '-' || '*' || '/') || isNaN(num2)) {
+//             return console.log('You entered not valid values!');
+//         }
+//             switch(operator){
+//                 case '+':
+//                     (() => console.log('Результат сложения: ', num1 + num2))();
+//                     break;
+//                 case '-':
+//                     (() => console.log('Результат вычитания: ', num1 - num2))();
+//                     break;
+//                 case '*':
+//                     (() => console.log('Результат умножения: ', num1 * num2))();
+//                     break;
+//                 case '/':
+//                     (() => console.log('Результат деления: ', num1 / num2))();
+//                     break;
+//             };
+        
+//     }
+// };
+// calculator.start();
