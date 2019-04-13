@@ -48,3 +48,27 @@
 // console.log('Результат вычитания: ' + calculator.sub());
 // console.log('Результат умножения: ' + calculator.mul());
 // console.log('Результат деления: ' + calculator.div());
+
+
+// ----------------------------------------------------------------------------
+// Калькулятор, Свой вариант.
+
+// function CalculatorConstructor() {
+//     this.start = () => {
+//         this.incomingValue = prompt('Please enter: num1 \ space \ operator \ space \ num2', 0).split(' ');
+//         this.num1 = +this.incomingValue[0];
+//         this.operator = this.incomingValue[1];
+//         this.num2 = +this.incomingValue[2];
+//         (isNaN(this.num1) || !this.methods[this.operator] || isNaN(this.num2))
+//             ? console.log('You entered not valid values!')
+//             : this.methods[this.operator](this.num1, this.num2);
+//     };
+//     this.methods = {
+//         '+': (a, b) => console.log('Результат сложения: ', a + b),
+//         '-': (a, b) => console.log('Результат вычитания: ', a - b),
+//         '*': (a, b) => console.log('Результат умножения: ', a * b),
+//         '/': (a, b) => console.log('Результат деления: ', a / b)
+//     }
+// }
+// const calculator = new CalculatorConstructor();
+// calculator.start();
