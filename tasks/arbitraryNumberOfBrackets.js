@@ -65,3 +65,40 @@
 // alert(sum(1)(2)(3));
 // console.log(+sum(1)(2)(3));
 // console.log(sum(1)(2)(3) == 6);
+
+// ---------------------------------------------------------------------------------------
+
+// function sum(a){
+//     let counterSum = a;
+//     return function func(b){
+//         if(b){
+//             counterSum += b;
+//             return func;
+//         }
+//         return counterSum;
+//     };
+// };
+
+// alert(sum(1)(2)(3)());
+// console.log(sum(1)(2)(3)());
+
+// ---------------------------------------------------------------------------------------
+
+// function sum(a){
+//     return function(b){
+//         if(b){
+//             return sum(a + b);
+//         }
+//         return a;
+//     };
+// };
+
+// console.log(sum(1)(2)(3)());
+// alert(sum(1)(2)(3)());
+
+// ---------------------------------------------------------------------------------------
+
+// const sum = (a) => (b) => b ? sum(a + b) : a;
+
+// console.log(sum(1)(2)(3)());
+// alert(sum(1)(2)(3)());
