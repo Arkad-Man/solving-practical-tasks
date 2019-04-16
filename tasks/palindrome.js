@@ -1,0 +1,25 @@
+// Функция palindrome().
+
+// const palindrome = (str) => {
+//     str = str.trim().toLowerCase();
+//     let res = '';
+//     for(let i = str.length - 1; i >= 0; i--){
+//         res += str[i];
+//     };
+//     return (res === str);
+// };
+
+// console.log(palindrome('HelLo') === true);
+// console.log(palindrome('racecar') === true);
+
+
+// ---------------------------------------------------------
+
+// const palindrome = (str) => {
+//     str = str.trim().toLowerCase();
+//     let res = str.split('').reverse().join('');
+//     return (res === str);
+// };
+
+// console.log(palindrome('HelLo') === true);
+// console.log(palindrome('racecar') === true);
