@@ -1,12 +1,10 @@
 // Функция isSorted().
 
 // const isSorted = (mas) => {
-//     let item = mas[0];
 //     for(let i = 0; i < mas.length; i++){
-//         if(item > mas[i]){
+//         if(mas[i] > mas[i + 1]){
 //             return false;
 //         }
-//         item = mas[i];
 //     }
 //     return true;
 // };
