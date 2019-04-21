@@ -161,14 +161,12 @@
 // coffeeMashine.getPower();
 // coffeeMashine.addWater(300);
 // coffeeMashine.setWaterAmount(200);
-// console.log(coffeeMashine.isRunning());
 // console.log(coffeeMashine.getWaterAmount());
-// coffeeMashine.enable();
 // coffeeMashine.setOnReady(function(){
 //     let amount = coffeeMashine.getWaterAmount();
 //     console.log('Кофе готов - ' + amount +  ' мл.');
-// })
+// });
 // coffeeMashine.run();
-// coffeeMashine.disable();
 // console.log(coffeeMashine.isRunning());
+
 
