@@ -1,3 +1,5 @@
+// CoffeMashine
+
 // function Mashine(power) {
 //     this._power = power;
 //     this._enabled = false;
