@@ -1,12 +1,11 @@
 // Функция isBalanced().
 
 // const isBalanced = (str) => {
-//     let arr = str.split('');
 //     let left = 0;
 //     let right = 0;
-//     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] === '}') right += 1;
-//         if(arr[i] === '{') left += 1;
+//     for(let i = 0; i < str.length; i++){
+//         if(str[i] === '}') right += 1;
+//         if(str[i] === '{') left += 1;
 //     }
 //     return (left === right);
 // }

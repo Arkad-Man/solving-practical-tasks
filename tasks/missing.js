@@ -1,4 +1,5 @@
 // Функция missing().
+
 // const missing = (mas) => {
 //     let nMas = mas.slice(0).sort((a, b) => a - b);
 //     let miss = [];

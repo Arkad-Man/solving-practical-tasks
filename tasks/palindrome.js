@@ -16,9 +16,11 @@
 // ---------------------------------------------------------
 
 // const palindrome = (str) => {
-//     str = str.trim().toLowerCase();
-//     let res = str.split('').reverse().join('');
-//     return (res === str);
+//     return str === str.trim()
+//                       .toLowerCase()
+//                       .split('')
+//                       .reverse()
+//                       .join('');
 // };
 
 // console.log(palindrome('HelLo') === true);
