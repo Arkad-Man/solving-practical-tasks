@@ -15,6 +15,7 @@
 // console.log(findVowelLetters('StarWars'));
 // console.log(findVowelLetters('WElcOme'));
 
+// -------------------------------------------------------------------
 
 // const findVowelLetters = (str) => {
 //     const findVowelLetters = ['a', 'e', 'i', 'o', 'u', 'y'];
