@@ -1,4 +1,4 @@
-// CoffeMashine
+// CoffeMashine - Function Style
 
 // function Mashine(power) {
 //     this._power = power;
