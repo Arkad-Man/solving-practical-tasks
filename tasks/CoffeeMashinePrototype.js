@@ -1,14 +1,33 @@
 // CoffeeMashine - Prototype Style
 
-// function CoffeeMashine(power, capacityCM){
+// function Mashine(power){
 //     this._power = power;
-//     this._capacityCM = capacityCM;
-//     this._waterAmount = 0;
-//     this._timer;
 //     this._enabled = false;
 // }
 
+// Mashine.prototype.enable = function(){
+//     this._enabled = true;
+// };
+
+// Mashine.prototype.disable = function(){
+//     this._enabled = false;
+// };
+
+// function CoffeeMashine(capacityCM){
+//     Mashine.apply(this, arguments);
+//     this._capacityCM = capacityCM;
+//     this._waterAmount = 0;
+//     this._timer;
+// }
+
+// CoffeeMashine.prototype = Object.create(Mashine.prototype);
+// CoffeeMashine.prototype.constructor = CoffeeMashine;
+
 // CoffeeMashine.prototype.WATER_HEAT_CAPACITY = 4200;
+
+// CoffeeMashine.prototype.getEnergy = function(){
+//     return this._enabled;
+// }
 
 // CoffeeMashine.prototype.getPower = function(){
 //     console.log('Мощьность кофеварки - ' + this._power + ' вт.');
@@ -36,14 +55,6 @@
 //     return Boolean(this._timer);
 // };
 
-// CoffeeMashine.prototype.enable = function(){
-//     this._enabled = true;
-// };
-
-// CoffeeMashine.prototype.disable = function(){
-//     clearTimeout(this._timer);
-//     this._enabled = false;
-// };
 
 // CoffeeMashine.prototype._onReady = function(){
 //     console.log('Кофе готов! ' + this._waterAmount + ' мл.');
@@ -64,8 +75,14 @@
 //     clearTimeout(this._timer);
 // };
 
+// CoffeeMashine.prototype.disable = function(){
+//     Mashine.prototype.disable.apply(this, arguments);
+//     clearTimeout(this._timer);
+// };
+
 // const coffeeMashine = new CoffeeMashine(10000, 500);
 // coffeeMashine.getPower();
+// console.log('enabled = ', coffeeMashine.getEnergy());
 // coffeeMashine.enable();
 // console.log('Кофеварка запущена - ', coffeeMashine.isRunning());
 // console.log('Воды в кофеварке - ', coffeeMashine.getWaterAmount());
