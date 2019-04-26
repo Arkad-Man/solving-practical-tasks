@@ -45,3 +45,18 @@
 // console.log(factorial(3));
 // console.log(factorial(10));
 
+// ---------------------------------------------------------------------
+
+// const fib = (num) => { 
+//     let prev = 0;
+//     let next = 1;
+//     for(let i = 0; i < num; i++){
+//         next = prev + next;
+//         prev = next - prev;
+//     }
+//     return prev;
+// };
+
+// console.log(fib(12));
+// console.log(fib(22));
+// console.log(fib(3));
