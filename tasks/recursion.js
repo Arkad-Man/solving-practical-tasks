@@ -1,14 +1,13 @@
 // Recursion
 
-// const recurNum = (num) => {
-//     if(num === 1) {
-//         return 1;
-//     }
-//     return recurNum(num - 1) + ' ' + num;
-// };
+// Вывести числа от 1 до num.
+
+// const recurNum = (num) => (num === 1) ? 1 : recurNum(num - 1) + ' ' + num;
 // console.log(recurNum(100));
 
 // ---------------------------------------------------------------------
+
+// Вывести числа от num2 до num2.
 
 // const recurNum2 = (num1, num2) => {
 //     if(num1 < num2) return recurNum2(num1 + 1, num2) + ' ' + num1;
@@ -22,6 +21,8 @@
 // console.log(recurNum2(90, 90));
 
 // ---------------------------------------------------------------------
+
+// Возведение в степень.
 
 // const pow = (num, n) => (n !== 1) ? num * pow(num, n - 1) : num;
 
@@ -45,18 +46,3 @@
 // console.log(factorial(3));
 // console.log(factorial(10));
 
-// ---------------------------------------------------------------------
-
-// const fib = (num) => { 
-//     let prev = 0;
-//     let next = 1;
-//     for(let i = 0; i < num; i++){
-//         next = prev + next;
-//         prev = next - prev;
-//     }
-//     return prev;
-// };
-
-// console.log(fib(12));
-// console.log(fib(22));
-// console.log(fib(3));

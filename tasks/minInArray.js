@@ -47,3 +47,14 @@
 //     return (a < b) ? a : b;
 // });
 // console.log('Minimum number in array: ' + min5);
+
+
+//-------------------------------------------------------------------
+// 6-й способ через sort().
+
+// let arr6 = [13, -9, 2, 9, 0, -2];
+// let min6 = (arr) => {
+//     let res = arr.sort((a, b) => a - b);
+//     return res[0];
+// }
+// console.log(min6(arr6));

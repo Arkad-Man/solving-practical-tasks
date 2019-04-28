@@ -19,3 +19,39 @@
 //     return console.log(sum);
 // }
 // sum();
+
+
+// function sum(){
+//     let arr = [];
+//     let sum = 0;
+    
+//     for(;;){
+//         let num = prompt('number', 0);
+//         if(num === null || isNaN(num) || num === ""){
+//             break;
+//         }else{
+//             arr.push(Number(num));
+//             sum += Number(num);
+//         }
+//     }
+//     return console.log(sum + ' - ' + arr);
+// }
+// sum();
+
+
+// function sum(){
+//     let arr = [];
+//     let sum = 0;
+    
+//     while(true){
+//         let num = prompt('number', 0);
+//         if(num === null || isNaN(num) || num === ""){
+//             break;
+//         }else{
+//             arr.push(Number(num));
+//             sum += Number(num);
+//         }
+//     }
+//     return console.log(sum + ' - ' + arr);
+// }
+// sum();

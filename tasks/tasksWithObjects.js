@@ -23,6 +23,16 @@
 // isEmpty(gangster);
 // isEmpty(emptyObj);
 
+//
+
+// const isEmpty = (object) => {
+//     if(Object.keys(object).length) return console.log('the object is not empty!');
+//     return console.log('object is empty!');
+// }
+
+// isEmpty(gangster);
+// isEmpty(emptyObj);
+
 
 // ------------------------------------------------------------------
 // Функция amount() выводит сумму всех числовых значений.

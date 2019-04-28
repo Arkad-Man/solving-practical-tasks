@@ -12,13 +12,12 @@
 // console.log(palindrome('HelLo') === true);
 // console.log(palindrome('racecar') === true);
 
-
 // ---------------------------------------------------------
 
 // const palindrome = (str) => {
 //     return str === str.trim()
 //                       .toLowerCase()
-//                       .split('')
+//                       .split()
 //                       .reverse()
 //                       .join('');
 // };
