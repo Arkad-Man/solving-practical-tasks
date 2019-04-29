@@ -3,8 +3,6 @@
 // function isPrime(num) {
 //     if(num <= 1) return false;
 //     for(var i = 2; i < num; i++){
-//         console.log('i = ' + i);
-//         console.log('num = ' + num);
 //         if(num % i === 0) {
 //             return false;
 //         }
